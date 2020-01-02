@@ -307,7 +307,7 @@ public class LicenseAgent {
      */
     @NotNull
     public String getActivatedOn() {
-        return "2019-11-29";
+        return "2020-01-02";
     }
 
     /**

@@ -6,8 +6,6 @@ jekyll: front matter
 
 Abbreviated Text: ABBR
 
-Auto link: <http://example.com> 
-
 Inline `code`
 
 GitLab inline math $`a + b = 0`$
@@ -20,20 +18,14 @@ Emoji: :smile:
 
 Escaped Character: \* \_ \` \& \[ \] \< \> \! \# \\ \" \' \. \- \( \) \{ \} \: \| \~
 
-Explicit Link : [Example](http://example.com#anchor-reference "title")
-
 Footnote Reference[^1]
 
 Italic Text: *italic*, _italic_ and this one is not *italic
-
-Image: ![My image](http://www.example.com/image.png "image title")
 
 Inline HTML: <b>bold</b> &nbsp; &#10; &#x0a;
 
 Hard Break Spaces: at end of line  
     that has a continuation.
-
-Mail Link: <me@example.com>
 
 Ref Anchor: <a id="ref-anchor-id"></a>
 
@@ -51,17 +43,9 @@ Superscript ^superscript^
 
 Underline/Inserted: ++underline++
 
-WikiLink: [[Link address and Link Text]]  Creole syntax: [[Link address|Link text]]  [[Link address#anchor|Link text]] GitHub syntax: [[Link text|Link address]] [[Link text|Link address#anchor]]
-
 <!-- Block comment -->
 
 Text <!-- Inline comment -->
-
-Macro reference: <<<macro>>>
-
->>>macro
-Definition
-<<<
 
 > block quote
 
@@ -75,9 +59,24 @@ Definition
 
 [^1]: Footnote text
 
-[Reference]: http://example.com#anchor-reference  "Title"
-Reference link: [link text][reference] [reference].
-Reference image: ![alt text][reference] ![reference].
+
+Auto link: <http://example.com>
+
+Image: ![My image](http://www.foo.bar/image.png)
+
+Explicit Link : [Example](http://example.com#anchor-reference "title")
+
+Mail Link: <me@example.com>
+
+Reference link: [link text][reference] [reference]
+
+Reference image: ![alt text][reference] ![reference]
+
+[reference]: http://example.com#anchor-reference  "Title"
+
+WikiLink: [[Link address and Link Text]]  Creole syntax: [[Link address|Link text]]  [[Link address#anchor|Link text]] GitHub syntax: [[Link text|Link address]] [[Link text|Link address#anchor]]
+
+[TOC levels=3]: Table of contents
 
 [TOC levels=3]: # "### Updating Table of contents"
 
@@ -93,9 +92,9 @@ Term 1
 Term 2
 :   Definition 2.2
 
-| Header Row 1 Cell 1 | Header Row 1 Cell 2 |
-| Header Row 2 Cell 1 | Header Row 2 Cell 2 |
-| Header Row 2 Cell 1 | Header Row 2 Cell 2 |
+| Heading Row 1 Cell 1 | Heading Row 1 Cell 2 |
+| Heading Row 2 Cell 1 | Heading Row 2 Cell 2 |
+| Heading Row 2 Cell 1 | Heading Row 2 Cell 2 |
 |:--------------------|:-------------------:|
 | Row 1 Cell 1        |    Row 1 Cell 2     |
 | Row 2 Cell 1        |    Row 2 Cell 2     |

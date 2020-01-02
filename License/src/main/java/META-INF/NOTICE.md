@@ -6,7 +6,7 @@ respective licenses.
 
 * translations [Powered by Yandex.Translate](http://translate.yandex.com/).
 * based on open source idea-multimarkdown - markdown plugin for IntelliJ products  
-  Copyright (c) 2015-2018 Vladimir Schneider <https://github.com/vsch/idea-multimarkdown>  
+  Copyright (c) 2015-2019 Vladimir Schneider <https://github.com/vsch/idea-multimarkdown>  
   <http://www.apache.org/licenses/LICENSE-2.0>
   * based on idea-markdown - markdown plugin for IntelliJ products  
     Copyright (c) 2011-2014 Julien Nicoulaud <https://github.com/nicoulaj/idea-markdown>  
@@ -93,12 +93,12 @@ respective licenses.
   This Font Software is licensed under the SIL Open Font License, Version 1.1  
   <https://opensource.org/licenses/OFL-1.1>
 <!--
-* includes JLaTeXMath software library  
-  Copyright (C) 2009-2011 DENIZET Calixte  
-  Copyright (C) Kris Coolsaet  
-  Copyright (C) Nico Van Cleemput  
-  Copyright (C) Kurt Vermeulen  
-  Copyright 2004-2007 Universiteit Gent  <https://github.com/opencollab/jlatexmath>  
+* includes JLaTeXMath software library
+  Copyright (C) 2009-2011 DENIZET Calixte
+  Copyright (C) Kris Coolsaet
+  Copyright (C) Nico Van Cleemput
+  Copyright (C) Kurt Vermeulen
+  Copyright 2004-2007 Universiteit Gent  <https://github.com/opencollab/jlatexmath>
   <https://github.com/opencollab/jlatexmath/blob/master/LICENSE>
 -->
 * includes Emoji-Cheat-Sheet.com <https://www.webfx.com/tools/emoji-cheat-sheet>  

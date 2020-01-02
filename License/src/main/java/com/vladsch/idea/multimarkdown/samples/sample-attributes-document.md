@@ -16,4 +16,4 @@ Term 1
 
 ~ Definition can contain multiple lines with
   lazy continuation and wrapping to margins where necessary.
-
+  {class=definition-item style=color:red}{id=term-1}{style=font-weght:400}

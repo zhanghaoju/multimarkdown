@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015-2018 Vladimir Schneider <vladimir.schneider@gmail.com>, all rights reserved.
+ * Copyright (c) 2015-2019 Vladimir Schneider <vladimir.schneider@gmail.com>, all rights reserved.
  *
  * This code is private property of the copyright holder and cannot be used without
  * having obtained a license or prior written permission of the of the copyright holder.
@@ -23,7 +23,6 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.Key;
 import java.security.KeyFactory;
@@ -34,7 +33,6 @@ import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.RSAPrivateCrtKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.Arrays;
 import java.util.Base64;
@@ -188,7 +186,7 @@ public class LicenseKey {
             //DerValue[] seq = derReader.getSequence(0);
             //
             //if (seq.length < 9) {
-                throw new InvalidKeySpecException("Could not parse a PKCS11 private key.");
+            throw new InvalidKeySpecException("Could not parse a PKCS11 private key.");
             //}
             //
             //// skip version seq[0];

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="MarkdownProjectSettings">
+  <component name="MarkdownEnhProjectSettings">
     <LinkMapSettings>
       <textMaps>
         <textMapGroup groupName="Jira Reference" elementType="REFERENCE" paramText="" textSample="ITS-0123" fileRefSample="issue-111">
